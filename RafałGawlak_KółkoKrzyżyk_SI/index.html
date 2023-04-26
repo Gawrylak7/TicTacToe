@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8" />
+	<meta content="Rafał Gawlak" name="author" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="script.js"></script>
+	<title>Rafał Gawlak- Projekt kółko i krzyżyk minMax ocena - 3.5</title>
+</head>
+
+<body>
+	<header>
+		<h1>Kółko i Krzyżyk - Algorytm MinMax - odwrotne zasady</h1>
+	</header>
+	<br />
+	<input type="button" value="Zaczyna komputer" id="button-restart" onclick="restartBnt(this)" />
+	<br />
+	<table id="kolko-krzyzyk" cellspacing="0">
+		<tr>
+			<td id="00" onclick="clickedCell(this)"></td>
+			<td id="01" onclick="clickedCell(this)"></td>
+			<td id="02" onclick="clickedCell(this)"></td>
+		</tr>
+		<tr>
+			<td id="10" onclick="clickedCell(this)"></td>
+			<td id="11" onclick="clickedCell(this)"></td>
+			<td id="12" onclick="clickedCell(this)"></td>
+		</tr>
+		<tr>
+			<td id="20" onclick="clickedCell(this)"></td>
+			<td id="21" onclick="clickedCell(this)"></td>
+			<td id="22" onclick="clickedCell(this)"></td>
+		</tr>
+	</table>
+	<br><br>
+	<h2 id="message"></h2>
+	
+	<br />
+	<footer>
+	</footer>
+</body>
+
+</html>
